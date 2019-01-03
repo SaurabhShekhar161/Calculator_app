@@ -1,6 +1,6 @@
 import java.awt.*;
 import java.awt.event.*;
-public class CalculatorFrame extends Frame implements ActionListener
+public class Calculator extends Frame implements ActionListener
 {
 	Label l1,l2,l3;
 	TextField t1,t2,t3;
@@ -80,11 +80,11 @@ public class CalculatorFrame extends Frame implements ActionListener
 		}
 	}
 }
-class Calculator
+class CalculatorDemo
 {
 	public static void main(String args[])
 	{
-		CalculatorFrame cf = new CalculatorFrame("Calculator");
+		Calculator cf = new Calculator("Calculator");
 		cf.setSize(300,400);
 		cf.setVisible(true);
 	}
