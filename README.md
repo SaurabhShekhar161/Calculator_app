@@ -1,4 +1,5 @@
 How to compile in command prompt?
 
- javac calculator.java
+ javac calculator.java 
+ 
  java Calculator
