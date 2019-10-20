@@ -2,9 +2,9 @@ import java.awt.*;
 import java.awt.event.*;
 class CalculatorFrame extends Frame implements ActionListener
 {
-	Label l1,l2,l3;
+	Label l1,l2,l3; 
 	TextField t1,t2,t3;
-	Button add,sub,mul,div,reset;
+	Button add,sub,mul,div,reset; //Button names
 	public CalculatorFrame(String t)
 	{
 		super(t);
