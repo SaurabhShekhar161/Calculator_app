@@ -80,7 +80,7 @@ class CalculatorFrame extends Frame implements ActionListener
 		}
 	}
 }
-class Calculator
+class Calculator //main class
 {
 	public static void main(String args[])
 	{
