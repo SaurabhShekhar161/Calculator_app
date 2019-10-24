@@ -49,7 +49,7 @@ class CalculatorFrame extends Frame implements ActionListener
 	public void actionPerformed(ActionEvent ae)
 	{
 		int res = 0;
-		String str = ae.getActionCommand();
+		String str = ae.getActionCommand();//ss
 		int n1 = Integer.parseInt(t1.getText());
 		int n2 = Integer.parseInt(t2.getText());
 		if(str.equals("+"))
