@@ -1,3 +1,4 @@
+// THIS IS A CALCULATOR APP MADE WITH JAVA
 import java.awt.*;
 import java.awt.event.*;
 class CalculatorFrame extends Frame implements ActionListener
